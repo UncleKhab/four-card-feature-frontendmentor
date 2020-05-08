@@ -1,0 +1,72 @@
+body {
+  color: #4a4141;
+}
+
+.header {
+  text-align: center;
+  padding: 80px 0;
+}
+
+
+.headDescription {
+  width:45%;
+  margin:auto;
+
+}
+
+.headTitle1 {
+  font-weight: 200;
+}
+
+.headTitle2 {
+  font-size:30px;
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: #00000026 0 20px 20px 0;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.centerCard {
+  margin-top: 30%;
+}
+
+.bottomCard {
+  margin-top: 30px;
+}
+
+.card-header {
+  padding: 2px;
+}
+
+.card-icon {
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width:768px) {
+  .headDescription {
+    width:75%;
+    margin-top:30px;
+  }
+  .centerCard, .bottomCard {
+    margin:0;
+  }
+
+  .card{
+    margin-top:20px;
+  }
+  .bodyContainer{
+    width:90%;
+    margin:auto;
+  }
+}
