@@ -53,6 +53,10 @@ body {
   margin-right: 5px;
 }
 
+.whyNot {
+  margin: auto;
+}
+
 @media screen and (max-width:768px) {
   .headDescription {
     width:75%;
